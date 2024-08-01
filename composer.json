@@ -1,0 +1,22 @@
+{
+    "name": "motus/motus",
+    "description": "Jeu Motus",
+    "type": "project",
+    "require": {
+        "altorouter/altorouter": "dev-master",
+        "slim/slim": "4.x-dev",
+        "illuminate/database": "^12.0@dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Motus\\Motus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maleye Rane"
+        }
+    ],
+    "minimum-stability": "dev"
+}
