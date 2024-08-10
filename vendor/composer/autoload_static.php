@@ -67,6 +67,13 @@ class ComposerStaticInit8da8c68823dd683c37bfaafd7395cb3c
         array (
             'Brick\\Math\\' => 11,
         ),
+        'A' => 
+        array (
+            'App\\Views\\' => 10,
+            'App\\Models\\' => 11,
+            'App\\Core\\' => 9,
+            'App\\Controllers\\' => 16,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -126,13 +133,13 @@ class ComposerStaticInit8da8c68823dd683c37bfaafd7395cb3c
         ),
         'Motus\\Motus\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/App',
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Database\\' => 
@@ -166,6 +173,22 @@ class ComposerStaticInit8da8c68823dd683c37bfaafd7395cb3c
         'Brick\\Math\\' => 
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
+        ),
+        'App\\Views\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App/Views',
+        ),
+        'App\\Models\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App/Models',
+        ),
+        'App\\Core\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App/Core',
+        ),
+        'App\\Controllers\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/App/Controllers',
         ),
     );
 

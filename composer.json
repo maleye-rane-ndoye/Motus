@@ -2,6 +2,7 @@
     "name": "motus/motus",
     "description": "Jeu Motus",
     "type": "project",
+    
     "require": {
         "altorouter/altorouter": "dev-master",
         "slim/slim": "4.x-dev",
@@ -10,7 +11,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Motus\\Motus\\": "src/"
+            "Motus\\Motus\\": "App/",
+            "App\\Models\\": "App/Models",
+            "App\\Views\\": "App/Views",
+            "App\\Controllers\\": "App/Controllers",
+            "App\\Core\\": "App/Core"
+
         }
     },
     "authors": [
