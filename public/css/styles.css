@@ -313,6 +313,7 @@ fieldset[disabled] {
     cursor: pointer;
     border-radius: 4px;
     font-size: 16px;
+
 }
 
 #menu-options {
@@ -343,17 +344,20 @@ fieldset[disabled] {
 
     #menu-toggle {
         display: block;
+        margin-bottom: 10px;
+
     }
 
     #menu-options {
         display: none;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
         width: 100%;
     }
 
     #menu-options.visible {
         display: flex;
+       
     }
 }
 

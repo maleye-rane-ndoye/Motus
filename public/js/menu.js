@@ -22,4 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('logout-button').addEventListener('click', function () {
         window.location.href = '/motus/logout'; // Redirection vers la page de déconnexion
     });
+
+    // Ajoute un écouteur d'événement sur le bouton "new part" pour rejouer une nouvelle partie
+    document.getElementById('gamePage-button').addEventListener('click', function () {
+        window.location.href = '/motus/game'; // Redirection vers la page de jeu
+    });
 });
