@@ -4,16 +4,22 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
     background: url('../images/Motus.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background-size:cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 100vh;
     color: #fff;
     text-align: center;
 }
 
+.contente{
+    margin: auto;
+    background-color: transparent;
+    justify-content: center;
+    
+}
 /* Container for centering content */
 .containers {
     background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
@@ -67,8 +73,9 @@ p {
 
 /* Header Styles */
 h2 {
+    font-size: xx-large;
     text-align: center;
-    color: #333;
+    color: white;
 }
 
 /* Form Styles */
@@ -242,14 +249,18 @@ fieldset[disabled] {
     border-radius: 24px;
     background-color: white;
     flex-direction: column;
+    color: black;
 }
 
 .dialog-title {
     margin-bottom: 0px;
+    color: black !important;
 }
 
 .dialog-message {
     margin-bottom: 48px;
+    color: black !important;
+
 }
 
 .dialog-btns {
@@ -358,9 +369,11 @@ fieldset[disabled] {
 
 /* Table Styles */
 table {
-    width: 100%;
+    min-width: 500px;
     border-collapse: collapse;
-    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 table th, table td {
@@ -371,10 +384,12 @@ table th, table td {
 
 table th {
     background-color: #f0f0f0;
+    color: #000;
 }
 
 table tr:hover {
     background-color: #f9f9f9;
+    color: #000;
 }
 
 /* Responsive Wall of Fame Styles */
@@ -424,3 +439,5 @@ table tr:hover {
         transform: translateY(0);
     }
 }
+
+  

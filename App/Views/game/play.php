@@ -5,19 +5,17 @@
     <link rel="stylesheet" href="./public/css/styles.css">
     <script src="./public/js/game.js" defer></script>
     <script src="./public/js/menu.js" defer></script>
-    <script src="./public/js/score.js" defer></script>
 
 
 </head>
 <body>
-    <h2>Jeu Motus</h2>
+    <h2>Motus Game</h2>
     <h3><?= $_SESSION['username']?></h3>
 
     <div class="menu">
         <button id="menu-toggle">Options</button>
         <div id="menu-options" class="hidden">
             <button id="new-try" type="button" onclick="restartGame()">New part</button>
-            <button id="show-score-button">Score</button>
             <button id="wall-of-fame-button">Wall of Fame</button>
             <button id="logout-button">Déconnexion</button>
         </div>

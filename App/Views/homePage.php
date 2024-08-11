@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./public/css/styles.css">
 </head>
 <body>
+<div class="contente">
     <div class="containers">
         <h1>Welcome to Motus!</h1>
         <p>Experience the ultimate word guessing game.</p>
@@ -17,5 +18,6 @@
             <a href="/motus/rules" class="btn">How to Play</a>
         </div>
     </div>
+</div>
 </body>
 </html>

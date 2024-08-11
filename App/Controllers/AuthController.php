@@ -14,7 +14,6 @@ class AuthController
         require __DIR__ . './../Views/auth/login.php';
     }
 
-
     public function storeUser() {
         $userLoggedIn = isset($_SESSION['user_id']);
 
@@ -64,7 +63,7 @@ class AuthController
 
     public function authenticate()
     {
-        session_start();
+     
 
         $userLoggedIn = isset($_SESSION['user_id']);
 
@@ -109,7 +108,6 @@ class AuthController
 
             public function logout()
         {
-            session_start();
             session_destroy();
             header('Location: /motus');
             exit();

@@ -7,7 +7,6 @@ class HomeController {
     }
 
 
-
     public function showRulesPage() {
         require __DIR__ . '/../Views/rules.php';
     }

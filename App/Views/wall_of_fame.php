@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Wall of Fame</title>
+    <base href="/motus/">
     <link rel="stylesheet" href="./public/css/styles.css">
 </head>
 <body>
@@ -24,5 +25,6 @@
             <?php endforeach; ?>
         </tbody>
     </table>
+
 </body>
 </html>

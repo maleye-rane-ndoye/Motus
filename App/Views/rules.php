@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./public/css/styles.css">
 </head>
 <body>
+<div class="contente">
     <div class="containers">
         <h1>How to Play Motus</h1>
         <p>Motus is a word guessing game where players try to guess a hidden word within a limited number of attempts. Here are the basic rules:</p>
@@ -30,5 +31,6 @@
             <a href="/motus/" class="btn">Back to Home</a>
         </div>
     </div>
+</div>
 </body>
 </html>
